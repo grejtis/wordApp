@@ -9,8 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="bg-amber-50 p-1"><nav>witam</nav>
-        {children}
+        className="bg-amber-50 p-1"> {children}
       </body>
     </html>
   );
