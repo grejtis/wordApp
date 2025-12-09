@@ -9,8 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className="bg-amber-50 p-1"><nav>witam</nav>
         {children}
       </body>
     </html>
